@@ -6,7 +6,7 @@ module OmniAuth
       option :client_options, {
         site: 'https://www.workable.com',
         authorize_url: 'https://www.workable.com/oauth/authorize',
-        token_url: 'https://oauth.pipedrive.com/oauth/token'
+        token_url: 'https://oauth.workable.com/oauth/token'
       }
 
       def request_phase
