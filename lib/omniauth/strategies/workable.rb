@@ -18,7 +18,7 @@ module OmniAuth
       end
 
       def callback_url
-        options[:redirect_uri] || ENV['WORKABLE_REDIRECT_URI'] || "https://api.supernormal.com/auth/workable/callback"
+        options[:redirect_uri] || ENV['WORKABLE_REDIRECT_URI']
       end
     end
   end
